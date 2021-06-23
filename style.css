@@ -1,0 +1,43 @@
+.heading {
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+}
+
+.note {
+    font-size: 20px;
+    background: linear-gradient(to right, red, rgb(85, 8, 226), lavender);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.div_speed {
+    float: left;
+}
+
+.div_volume {
+    float: right;
+}
+
+.div_image_speed,
+.div_image_volume {
+    width: 200px;
+    border-radius: 100px;
+}
+
+#speed,
+#volume {
+    font-size: 20px;
+    margin: 15px;
+}
+
+.play_button {
+    width: 130px;
+    font-size: 25px;
+}
+
+canvas {
+    border: 5px groove silver;
+    border-radius: 20px;
+    margin-top: 200px;
+}
